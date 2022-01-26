@@ -1,5 +1,5 @@
-﻿using Catalog.Api.Model;
-using Catalog.Api.Services;
+﻿using Cards.Api.Model;
+using Cards.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Catalog.Api.Controllers
+namespace Cards.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

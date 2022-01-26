@@ -1,11 +1,11 @@
-﻿using Catalog.Api.Model;
-using Catalog.Api.Repository;
+﻿using Cards.Api.Model;
+using Cards.Api.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Catalog.Api.Services
+namespace Cards.Api.Services
 {
     public class CardService : ICardService
     {

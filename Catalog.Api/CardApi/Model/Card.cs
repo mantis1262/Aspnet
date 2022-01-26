@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Catalog.Api.Model
+namespace Cards.Api.Model
 {
-    public class Card
+    public record Card
     {
 
         public int ID { get; set; }

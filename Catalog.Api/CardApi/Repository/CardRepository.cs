@@ -1,10 +1,10 @@
-﻿using Catalog.Api.Model;
+﻿using Cards.Api.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Catalog.Api.Repository
+namespace Cards.Api.Repository
 {
     public class CardRepository : ICardRepsoitory
     {
@@ -12,7 +12,8 @@ namespace Catalog.Api.Repository
        
         public CardRepository()
         {
-            cards = new List<Card>() { (new Card { ID = 1, Title = "szczury", Description = "dsada", PictureURL = "" }) };
+            cards = new List<Card>() { (new Card { ID = 1, Title = "szczury", Description = "dsada", PictureURL = "" }),
+                                      (new Card { ID = 2, Title = "krokodyl", Description = "dsada", PictureURL = "" }) };
 
         }
 
